@@ -224,7 +224,7 @@ nav {
 }
 
 .heading {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: var(--font-size-36);
     font-weight: var(--font-weight-lg);
     line-height: 54px;
@@ -237,7 +237,7 @@ nav {
 }
 
 .card-font-1 {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: var(--font-size-18);
     font-weight: var(--font-weight-sm);
     line-height: 27px;
@@ -255,7 +255,7 @@ nav {
 }
 
 .no-font {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: var(--font-size-24);
     font-weight: var(--font-weight-md);
     line-height: 36px;
@@ -265,7 +265,7 @@ nav {
 }
 
 .word-font {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-sm);
     line-height: 21px;
@@ -275,8 +275,7 @@ nav {
 }
 
 .edit-profile {
-    padding: 8px 24px 8px 24px;
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: var(--font-size-18);
     font-weight: var(--font-weight-lg);
     line-height: 27px;
@@ -287,6 +286,8 @@ nav {
     border-radius: 25.5px;
     border: none;
     cursor: pointer;
+    height: 43px;
+    width: 144px;
 }
 
 .edit-profile:hover {
@@ -309,7 +310,7 @@ nav {
 }
 
 .sec-3-no {
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: var(--font-size-18);
     font-weight: var(--font-weight-sm);
     line-height: 27px;
@@ -638,5 +639,9 @@ nav {
 
     .py-130 {
         padding: 100px 0;
+    }
+
+    .card{
+    padding: 20px 12px 20px 12px;
     }
 }
