@@ -1,4 +1,4 @@
-let toggle_box = document.querySelector(".toggle-ball")
+let toggle_box = document.querySelector(".toggle-ball");
 
 toggle_box.addEventListener("click", function () {
     toggle_box.classList.toggle("toggle-ball-right")
