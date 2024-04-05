@@ -1,8 +1,9 @@
-const toggle_box = document.querySelector(".toggle-ball");
+const toggle_box = document.querySelector(".toggle-box");
 const toggle_ball = document.querySelector(".toggle-ball");
-toggle_box.addEventListener("click", function () {
-  toggle_ball.classList.toggle("toggle-ball-right");
-});
+
+toggle_box.addEventListener("click", () => {
+    toggle_ball.classList.toggle("toggle-ball-right");
+})
 
 let menuicons = document.querySelector("#menubar");
 let navlist = document.querySelector(".nav-items");
